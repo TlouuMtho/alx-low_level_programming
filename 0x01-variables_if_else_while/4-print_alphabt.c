@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
  * Main - Prints the alphabet in lowercase except q and e
- * Return: Always 0
+ * 
+ * Return: Always 0 (Success)
  */
+/* Function prints the alphabet in lowercse and ecludes q and e*/
 int main(void)
 {
 	char letter;
