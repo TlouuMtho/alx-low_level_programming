@@ -2,7 +2,6 @@
 /**
  * main - Prints the alphabets ten times in a row
  *
- * Return: void
  */
 void print_alphabet_x10(void)
 {
