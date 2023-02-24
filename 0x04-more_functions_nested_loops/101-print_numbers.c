@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print_number -Prints an integer
- * @n: input integer parameter
+ * print_number - Prints an integer
+ * @n: Input integer parameter
  *
- * Return: void
  */
 
 void print_number(int n)
