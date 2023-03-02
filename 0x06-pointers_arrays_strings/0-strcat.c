@@ -9,13 +9,18 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *str1[] = "dest";
-	char *str2[] = "src";
-	char result[8];
+	char *s = dest;
 
-	concatenate_strings(str1, str2, result);
-
-	_putchar("Concatenated string is: %s\n", result);
-
-	return (*str1[]);
+	while (*dest != '\0')
+	{
+		dest++;
+	}
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return (s);
 }
