@@ -5,7 +5,7 @@
  * @src: 1st string in question
  * @dest: 2nd string in question
  *
- * Return: pointer
+ * Return: char
  */
 char *_strcat(char *dest, char *src)
 {
@@ -15,6 +15,7 @@ char *_strcat(char *dest, char *src)
 	{
 		dest++;
 	}
+
 	while (*src != '\0')
 	{
 		*dest = *src;
