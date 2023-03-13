@@ -1,18 +1,19 @@
-#include "main.h"
+#include "stdio.h"
 
-#include <stdio.h>
-
-#include <stdlib.h>
-
-#include <ctype.h>
-
-#include <string.h>
-
-
-int _putchar(char c)
-
+/**
+ * main - Print _putchar
+ * Return: Always 0
+ */
+int main(void)
 {
-
-    return putchar(c);
-
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+	return (0);
 }
